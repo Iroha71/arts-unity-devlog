@@ -3,7 +3,7 @@ export default function AppHeader() {
     <nav className="navbar bg-body-tertiary">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          ARTS -Unity Devlog-
         </a>
         <span className="navbar-text">ver.0.0.0</span>
       </div>
