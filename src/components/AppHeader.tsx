@@ -5,7 +5,7 @@ export default function AppHeader() {
         <a className="navbar-brand" href="#">
           ARTS -Unity Devlog-
         </a>
-        <span className="navbar-text">ver.0.0.0</span>
+        <span className="navbar-text">v{__APP_VERSION__}</span>
       </div>
     </nav>
   );
