@@ -1,5 +1,6 @@
 ---
-import "../styles/global.css";
+import AppHeader from "../components/AppHeader";
+import "../styles/global.scss";
 ---
 
 <!doctype html>
@@ -10,10 +11,13 @@ import "../styles/global.css";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>ARTS -Unity Devlog-</title>
 	</head>
 	<body>
-		<slot />
+    <AppHeader />
+    <div class="container pt-2">
+      <slot />
+    </div>
 		<script>
 			import "bootstrap/dist/js/bootstrap.bundle.min.js";
 		</script>

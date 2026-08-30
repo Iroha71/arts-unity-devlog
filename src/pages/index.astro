@@ -1,29 +1,11 @@
 ---
-import Counter from '../components/Counter.tsx';
-import Welcome from '../components/Welcome.astro';
+import Hero from '../components/Hero';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
-	<div class="container py-5">
-		<h2 class="mb-4">React + Bootstrap check</h2>
-
-		<div class="row g-3 mb-4">
-			<div class="col-md-6">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Bootstrap card</h5>
-						<p class="card-text">Bootstrap のコンポーネントが利用できます。</p>
-						<button class="btn btn-primary" type="button">btn-primary</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="alert alert-success mb-0">alert-success</div>
-			</div>
-		</div>
-
-		<Counter client:load />
-	</div>
+  <Hero />
+	<div>
+    テスト
+  </div>
 </Layout>
