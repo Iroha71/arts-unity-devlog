@@ -1,7 +1,7 @@
 {
   "name": "ars-unity-devlog",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -12,7 +12,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.2.9"
+    "@astrojs/react": "^6.0.4",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "astro": "^7.2.9",
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "allowScripts": {
     "esbuild": true
